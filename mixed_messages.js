@@ -1,3 +1,5 @@
+
+//object to store joke nouns and answers
 const jokeComponents = {
     nouns: ["traffic light", "car", "the sea", "shore", "envolope", "stamp", "fried eggs", 
     "knives", "forks", "monks", "breakfast", "window", "door", "chickens", "wasp",
@@ -34,7 +36,7 @@ const generateJoke = () => {
 
     answer = generateAnswer();
 
-    return `What did the ${noun1} say to the ${noun2}? \n${answer}`;
+    return `\n\nWhat did the ${noun1} say to the ${noun2}? \n${answer}\n`;
 
 }
 
